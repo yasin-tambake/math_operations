@@ -1,7 +1,5 @@
-
-
 # test_sample.py
-from samples import add
+from src.samples import add
 
 def test_add_positive_numbers():
     assert add(2, 3) == 5
